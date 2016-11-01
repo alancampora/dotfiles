@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/admin/repos/ui5/eh/mobiletimeaccounting-eh'
+let g:netrw_dirhist_2='/Users/admin/repos/ui5/lib-groupui-vw'
+let g:netrw_dirhist_3='/Users/admin/repos/ui5/component-eef-lidl'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_5='/Users/admin/repos/ui5/product-eem-lidl'
+let g:netrw_dirhist_6='/Users/admin/repos/ui5/product-eem-lidl/sov.comp.eem.lidl'
+let g:netrw_dirhist_7='/Users/admin/repos/ui5/prod-glp-vw'
+let g:netrw_dirhist_8='/Users/admin/turbo-repos/slack-scheduler-bot'
+let g:netrw_dirhist_9='/Users/admin/repos/ui5/prod-glp-vw'

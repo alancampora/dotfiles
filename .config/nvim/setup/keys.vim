@@ -1,0 +1,34 @@
+"Function keys
+nnoremap <F6> :NERDTreeToggle<CR>
+
+"Ctrl keys	
+nnoremap <p> :CtrlP<CR>
+
+set clipboard+=unnamed
+
+nmap t <Plug>(easymotion-t2)
+nmap s <Plug>(easymotion-s2)
+omap / <Plug>(easymotion-tn)
+map  / <Plug>(easymotion-sn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
+
+"BEAUTIFY .vimrc
+map <c-f> :call JsBeautify()<cr>
+" or
+autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
+" for json
+autocmd FileType json noremap <buffer> <c-f> :call JsonBeautify()<cr>
+" for jsx
+autocmd FileType jsx noremap <buffer> <c-f> :call JsxBeautify()<cr>
+" for html
+autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+" for css or scss
+autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
