@@ -12,6 +12,7 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'scrooloose/nerdcommenter'
 Plug 'maksimr/vim-jsbeautify'
 Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 "Themes
 Plug 'altercation/vim-colors-solarized'
