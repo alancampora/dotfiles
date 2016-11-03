@@ -1,6 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'scrooloose/nerdtree',{ 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree',{ 'on':  'NERDTreeToggle' } | Plug 'ryanoasis/vim-devicons' 
 Plug 'easymotion/vim-easymotion'
 "Git
 Plug 'tpope/vim-fugitive'
@@ -11,6 +11,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'Chiel92/vim-autoformat'
 Plug 'scrooloose/nerdcommenter'
 Plug 'maksimr/vim-jsbeautify'
+Plug 'ryanoasis/vim-devicons'
 
 "Themes
 Plug 'altercation/vim-colors-solarized'
