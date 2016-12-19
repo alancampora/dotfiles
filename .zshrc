@@ -5,7 +5,7 @@ export ZSH=/Users/admin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="alanFest"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -43,8 +43,7 @@ ZSH_THEME="agnoster"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
+ZSH_CUSTOM=~/theme
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -91,3 +90,5 @@ export NVM_DIR="/Users/admin/.nvm"
 
 #ALIASES
 alias dotfiles='/usr/bin/git --git-dir=/Users/admin/.dotfiles/ --work-tree=/Users/admin'
+alias vim='nvim'
+alias vimlocal='nvim ./'
