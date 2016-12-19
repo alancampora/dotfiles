@@ -17,6 +17,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 "Themes
 Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/seoul256.vim'
+
 "Javascript
 Plug 'pangloss/vim-javascript'
 
