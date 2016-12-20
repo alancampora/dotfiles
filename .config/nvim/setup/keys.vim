@@ -1,3 +1,5 @@
+let mapleader = " "
+
 "Function keys
 nnoremap <F6> :NERDTreeToggle<CR>
 
@@ -18,7 +20,7 @@ map <Leader>k <Plug>(easymotion-k)
 map <Leader>h <Plug>(easymotion-linebackward)
 
 "BEAUTIFY .vimrc
-map <c-f> :call JsBeautify()<cr>
+map <Leader> :call JsBeautify()<cr>
 " or
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 " for json
@@ -32,3 +34,7 @@ autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 
 nnoremap <leader>d "_d
 vnoremap <leader>d "_d
+
+" functions
+map <Leader>y :call Saraza()<cr>
+

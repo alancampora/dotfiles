@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/admin/theme'
+let g:netrw_dirhist_2='/Users/admin/repos/ui5/eh/mobiletimeaccounting-eh'
+let g:netrw_dirhist_3='/Users/admin/turbo-repos/quilombodrivdev/client'
+let g:netrw_dirhist_4='/Users/admin/turbo-repos/quilombodrivdev/.git'
+let g:netrw_dirhist_5='/Users/admin/turbo-repos/qdd-front/tools'
