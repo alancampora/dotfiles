@@ -36,5 +36,5 @@ nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 
 " functions
-map <Leader>y :call Saraza()<cr>
+map <Leader>y :call SplitTerm()<cr>
 
