@@ -10,6 +10,9 @@ set tabstop=4
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
 
+" relative line number
+set rnu
+
 " On pressing tab, insert 4 spaces
 set expandtab
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h9
