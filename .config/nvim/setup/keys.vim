@@ -5,6 +5,7 @@ nnoremap <F6> :NERDTreeToggle<CR>
 
 "Ctrl keys	
 nnoremap <p> :CtrlP<CR>
+map <Leader>p :CtrlP<cr> 
 
 set clipboard+=unnamed
 
