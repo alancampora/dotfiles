@@ -1,7 +1,7 @@
 let mapleader = " "
 
 "Function keys
-nnoremap <F6> :NERDTreeToggle<CR>
+nnoremap <Leader>1 :NERDTreeToggle<CR>
 
 "Ctrl keys	
 nnoremap <p> :CtrlP<CR>
