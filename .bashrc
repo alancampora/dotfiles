@@ -15,5 +15,3 @@ else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
 
-# color for byobu and nvim
-export TERM=screen-256color
