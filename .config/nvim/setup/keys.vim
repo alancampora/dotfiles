@@ -41,3 +41,7 @@ map <Leader>y :call SplitTerm()<cr>
 
 " Chosewin  invoke with '-'
 nmap  -  <Plug>(choosewin)
+
+" jsdoc
+map <Leader>t :JsDoc<cr>
+

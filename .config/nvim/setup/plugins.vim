@@ -14,7 +14,7 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 't9md/vim-choosewin'  
-
+Plug 'heavenshell/vim-jsdoc' 
 "Themes
 Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/seoul256.vim'
