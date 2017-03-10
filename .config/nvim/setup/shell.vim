@@ -10,7 +10,8 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
-
+" file name
+set statusline+=%F
 
 " relative line number
 set rnu
@@ -27,7 +28,6 @@ let g:ctrlp_custom_ignore = {'dir': 'node_modules\|.git'}
 let g:jsdoc_access_descriptions=1
 
 "syntastic
-
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
