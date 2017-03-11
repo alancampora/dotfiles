@@ -17,7 +17,9 @@ set statusline+=%F
 set rnu
 
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h9
-set cursorline "highlight cursor line
+
+"highlight cursor line
+set cursorline 
 
 " ctrl P
 let g:ctrlp_max_files=0 
