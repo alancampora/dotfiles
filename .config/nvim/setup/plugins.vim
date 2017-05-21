@@ -17,6 +17,7 @@ Plug 't9md/vim-choosewin'
 Plug 'heavenshell/vim-jsdoc' 
 Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-surround'
+Plug 'posva/vim-vue'
 "Themes
 Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/seoul256.vim'
