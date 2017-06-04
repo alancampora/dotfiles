@@ -92,3 +92,5 @@ export NVM_DIR="/Users/admin/.nvm"
 alias dotfiles='/usr/bin/git --git-dir=/Users/admin/.dotfiles/ --work-tree=/Users/admin'
 alias vim='nvim'
 alias vimlocal='nvim ./'
+alias hsplit='tmux split-window -h'
+alias vsplit='tmux split-window -v'
