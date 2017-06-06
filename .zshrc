@@ -94,3 +94,5 @@ alias vim='nvim'
 alias vimlocal='nvim ./'
 alias hsplit='tmux split-window -h'
 alias vsplit='tmux split-window -v'
+alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
+
