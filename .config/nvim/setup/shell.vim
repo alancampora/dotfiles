@@ -35,4 +35,5 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_always_populate_loc_list =1 "for lopen
+"let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint' "airbnb extends was not working
 
