@@ -1,2 +1,2 @@
-command Vsplit execute "!vsplit-vim"
-command Hsplit execute "!hsplit-vim"
+command Vsplit execute "!vsplit"
+command Hsplit execute "!hsplit"

@@ -92,7 +92,4 @@ export NVM_DIR="/Users/admin/.nvm"
 alias dotfiles='/usr/bin/git --git-dir=/Users/admin/.dotfiles/ --work-tree=/Users/admin'
 alias vim='nvim'
 alias vimlocal='nvim ./'
-alias vsplit='tmux split-window -h'
-alias hsplit='tmux split-window -v'
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
-
