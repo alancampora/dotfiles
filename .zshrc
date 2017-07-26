@@ -93,3 +93,5 @@ alias dotfiles='/usr/bin/git --git-dir=/Users/admin/.dotfiles/ --work-tree=/User
 alias vim='nvim'
 alias vimlocal='nvim ./'
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
+alias ls-hidden='ls -a | grep "^\."'
+alias re-zsh='source ~/.zshrc'
