@@ -59,3 +59,6 @@ hi SpellCap ctermfg=232 ctermbg=225 guifg=#000000  guibg=#ffabbb
 
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
+
+hi CursorLine term=bold cterm=bold guibg=Grey40
+highlight NonText ctermbg=234
