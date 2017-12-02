@@ -95,3 +95,9 @@ alias vimlocal='nvim ./'
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
 alias ls-hidden='ls -a | grep "^\."'
 alias re-zsh='source ~/.zshrc'
+alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
+
+
+# Base16 Shell
+BASE16_SHELL=$HOME/.config/base16-shell/
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
