@@ -8,8 +8,9 @@ set rnu
 set guioptions=
 
 "font
-set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h9
+set guifont=DroidSansMonoForPowerline\ Nerd\ Font:h16
 
+"set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h16
 "cursor highlight
 set cursorline
 
