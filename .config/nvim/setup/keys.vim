@@ -20,24 +20,6 @@ map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 map <Leader>h <Plug>(easymotion-linebackward)
 
-"BEAUTIFY .vimrc
-"map <Leader>f :call JsBeautify()<cr>
-autocmd FileType javascript map <Leader>f :call JsBeautify()<cr>
-" or
-"autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
-" for json
-autocmd FileType json noremap <Leader>f :call JsonBeautify()<cr>
-" for jsx
-autocmd FileType jsx noremap <Leader>f :call JsxBeautify()<cr>
-" for html
-autocmd FileType html noremap <Leader>f :call HtmlBeautify()<cr>
-" for xml
-autocmd FileType xml noremap <Leader>f :call HtmlBeautify()<cr>
-" for css or scss
-autocmd FileType css noremap <Leader>f :call CSSBeautify()<cr>
-" scss
-autocmd FileType scss noremap <Leader>f :call CSSBeautify()<cr>
-
 
 nnoremap <leader>d "_d
 vnoremap <leader>d "_d

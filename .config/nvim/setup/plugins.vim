@@ -6,11 +6,14 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
+Plug 'Shougo/deoplete.nvim'
+Plug 'mhartington/nvim-typescript'
+Plug 'Quramy/tsuquyomi'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+
 "IDE functionalities
 Plug 'kien/ctrlp.vim'
-Plug 'Chiel92/vim-autoformat'
 Plug 'scrooloose/nerdcommenter'
-Plug 'maksimr/vim-jsbeautify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 't9md/vim-choosewin'  
@@ -20,13 +23,10 @@ Plug 'tpope/vim-surround'
 Plug 'posva/vim-vue'
 Plug 'dyng/ctrlsf.vim'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
 "Themes
-Plug 'altercation/vim-colors-solarized'
-Plug 'junegunn/seoul256.vim'
-
-"Javascript
-Plug 'pangloss/vim-javascript'
+Plug 'chriskempson/base16-vim'
 
 
 call plug#end()

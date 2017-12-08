@@ -36,8 +36,3 @@ let g:NERDTreePatternMatchHighlightColor['.*_spec\.rb$'] = s:rspec_red " sets th
 
 
 
-let g:seoul256_background = 233
-let g:seoul256_light_background = 256
-
-colo seoul256
-colo seoul256-light
