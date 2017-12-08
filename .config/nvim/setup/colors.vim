@@ -1,4 +1,5 @@
-syntax enable
+
+"syntax enable
 
 "Nerd tree syntax highlight
 let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match

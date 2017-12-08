@@ -11,3 +11,5 @@ source ~/.config/nvim/setup/plugins/typescript.vim
 source ~/.config/nvim/setup/plugins/deoplete.vim
 source ~/.config/nvim/setup/plugins/base16.vim
 source ~/.config/nvim/setup/plugins/prettier.vim
+source ~/.config/nvim/setup/plugins/syntastic.vim
+source ~/.config/nvim/setup/plugins/vim-typescript.vim

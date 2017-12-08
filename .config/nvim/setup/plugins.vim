@@ -10,6 +10,7 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'mhartington/nvim-typescript'
 Plug 'Quramy/tsuquyomi'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'leafgarland/typescript-vim'
 
 "IDE functionalities
 Plug 'kien/ctrlp.vim'

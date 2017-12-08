@@ -29,12 +29,6 @@ let g:ctrlp_custom_ignore = {'dir': 'node_modules\|.git'}
 " jsdoc
 let g:jsdoc_access_descriptions=1
 
-"syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_always_populate_loc_list =1 "for lopen
 "let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint' "airbnb extends was not working
 
 " line for 80 chars
