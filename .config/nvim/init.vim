@@ -13,3 +13,7 @@ source ~/.config/nvim/setup/plugins/base16.vim
 source ~/.config/nvim/setup/plugins/prettier.vim
 source ~/.config/nvim/setup/plugins/syntastic.vim
 source ~/.config/nvim/setup/plugins/vim-typescript.vim
+
+"external
+" source ~/.config/nvim/setup/external/byobu.vim
+
