@@ -27,6 +27,9 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
+"Elm
+Plug 'ElmCast/elm-vim'
+
 "Themes
 Plug 'chriskempson/base16-vim'
 
