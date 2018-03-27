@@ -1,9 +1,20 @@
 # dotfiles
 The whole setup was done following [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/) 
 
-## Install your dotfiles onto a new system (or migrate to this setup)
+## Terminal enhancements
 
-# getting bare-repository
+### iTerm2
+From [here](https://www.iterm2.com/)
+### bybou
+From [here](http://byobu.co/)
+### zsh
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+## Install dotfiles onto a new system (or migrate to this setup)
+
+### getting bare-repository
 Prior to the installation make sure you have committed the alias to your .bashrc or .zsh:
 ```bash
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -26,12 +37,13 @@ Define the alias in the current shell scope:
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
 
-# install [brew](https://brew.sh/index_es)
+## IDE
+### install [brew](https://brew.sh/index_es)
 ```bash 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-# install [neovim](https://neovim.io/) ❤️
+### install [neovim](https://neovim.io/) ❤️
 ```bash 
 brew install neovim
 ```
