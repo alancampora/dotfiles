@@ -4,6 +4,9 @@ The whole setup was done following [this article](https://developer.atlassian.co
 ## iTerm2
 From [here](https://www.iterm2.com/)
 
+## Git
+Run git on terminal and follow steps 
+
 ## Install dotfiles onto a new system (or migrate to this setup)
 
 ### getting bare-repository
