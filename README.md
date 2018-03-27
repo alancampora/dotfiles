@@ -1,17 +1,12 @@
 # dotfiles
 The whole setup was done following [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/) 
 
-## Terminal enhancements
-
-### iTerm2
+## iTerm2
 From [here](https://www.iterm2.com/)
-### bybou
-From [here](http://byobu.co/)
-### zsh
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-
 ## Install dotfiles onto a new system (or migrate to this setup)
 
 ### getting bare-repository
@@ -74,6 +69,13 @@ nvim
 (if any plugin fails, check its repository (deoplete can fails))
 
 
+## Terminal enhancements
+### bybou
+From [here](http://byobu.co/)
+### zsh
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 
 ## upgrade
