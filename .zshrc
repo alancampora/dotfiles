@@ -97,8 +97,11 @@ alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
 alias ls-hidden='ls -a | grep "^\."'
 alias re-zsh='source ~/.zshrc'
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
-
+alias twitch='vsplit -p 39;hsplit -p 34;clear'
+#vim mode
+bindkey -v
 
 # Base16 Shell
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+
