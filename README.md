@@ -37,6 +37,11 @@ Define the alias in the current shell scope:
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
 
+Checkout the actual content from the bare repository to your $HOME:
+```bash 
+config checkout
+```
+
 ## IDE
 ### install [brew](https://brew.sh/index_es)
 ```bash 
@@ -49,10 +54,7 @@ brew install neovim
 ```
 
 
-Checkout the actual content from the bare repository to your $HOME:
-```bash 
-config checkout
-```
+
 
 ## upgrade
 ```
