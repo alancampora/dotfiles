@@ -4,9 +4,6 @@ The whole setup was done following [this article](https://developer.atlassian.co
 ## iTerm2
 From [here](https://www.iterm2.com/)
 
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
 ## Install dotfiles onto a new system (or migrate to this setup)
 
 ### getting bare-repository
