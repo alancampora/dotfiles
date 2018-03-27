@@ -47,11 +47,31 @@ config checkout
 ```bash 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+### install [python](http://docs.python-guide.org/en/latest/starting/install3/osx/)
+```
+brew install python
+
+pip3 install neovim //activates python3 for neovim
+```
 
 ### install [neovim](https://neovim.io/) ❤️
+
 ```bash 
 brew install neovim
 ```
+
+Install plugin manager for nvim
+```
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+Open nvim
+```
+nvim
+
+:PlugInstall 
+```
+(if any plugin fails, check its repository (deoplete can fails))
 
 
 
@@ -65,5 +85,5 @@ after that open neovim
 ```
 :PlugUpgrade (for vim-plug)
 :UpdateRemotePlugins
-:UpdateUpdate
+:PlugUpdate
 ```
