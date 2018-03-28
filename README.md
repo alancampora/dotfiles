@@ -13,7 +13,7 @@ Run git on terminal and follow steps
 
 Prior to the installation make sure you have committed the alias to your .bashrc or .zsh:
 ```bash
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
 And that your source repository ignores the folder where you'll clone it, so that you don't create weird recursion problems:
@@ -30,7 +30,7 @@ git clone --bare <git-repo-url> $HOME/.dotfiles
 
 Define the alias in the current shell scope:
 ```bash
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
 Checkout the actual content from the bare repository to your $HOME:
