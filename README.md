@@ -10,31 +10,37 @@ Run git on terminal and follow steps
 ## Install dotfiles onto a new system (or migrate to this setup)
 
 ### getting bare-repository
+
 Prior to the installation make sure you have committed the alias to your .bashrc or .zsh:
 ```bash
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
 And that your source repository ignores the folder where you'll clone it, so that you don't create weird recursion problems:
 
 ```bash 
-echo ".cfg" >> .gitignore
+echo ".dotfiles" >> .gitignore
 ```
 
 Now clone your dotfiles into a bare repository in a "dot" folder of your $HOME:
 
 ```bash
-git clone --bare <git-repo-url> $HOME/.cfg
+git clone --bare <git-repo-url> $HOME/.dotfiles
 ```
 
 Define the alias in the current shell scope:
 ```bash
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
 Checkout the actual content from the bare repository to your $HOME:
 ```bash 
-config checkout
+dotfiles checkout
+```
+
+Hide untracked files
+```bash 
+dotfiles config --local status.showUntrackedFiles no
 ```
 
 ## IDE
