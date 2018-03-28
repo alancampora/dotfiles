@@ -70,8 +70,10 @@ nvim
 
 
 ## Terminal enhancements
-### bybou
-From [here](http://byobu.co/)
+### [bybou](http://byobu.co/)
+```bash
+brew install byobu 
+```
 ### zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
