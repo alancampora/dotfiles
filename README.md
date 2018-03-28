@@ -100,7 +100,10 @@ https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Retin
 ```bash 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
-
+### [turbo-git](https://www.npmjs.com/package/turbo-git)
+```bash
+npm install -g turbo-git
+```
 ## upgrade
 ```
 brew update
