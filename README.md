@@ -66,7 +66,7 @@ nvim
 
 :PlugInstall 
 ```
-(if any plugin fails, check its repository (deoplete can fails))
+(if any plugin fails, check its repository (deoplete failed last time))
 
 
 ## Terminal enhancements
