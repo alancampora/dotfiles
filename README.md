@@ -78,6 +78,13 @@ brew install byobu
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+### [base16-shell](https://github.com/chriskempson/base16-shell)
+```bash
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+```
+### [base16-manager](https://github.com/AuditeMarlow/base16-manager)
+Follow repo steps
+
 ### Fira Code font
 https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Retina/complete/Fura%20Code%20Retina%20Nerd%20Font%20Complete.otf
 
