@@ -20,12 +20,13 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 't9md/vim-choosewin'  
 Plug 'heavenshell/vim-jsdoc' 
-Plug 'vim-syntastic/syntastic'
+"Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
 Plug 'tpope/vim-surround'
 Plug 'posva/vim-vue'
 Plug 'dyng/ctrlsf.vim'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+"Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
 "Elm
 Plug 'ElmCast/elm-vim'
