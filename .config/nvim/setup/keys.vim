@@ -33,3 +33,5 @@ nmap  -  <Plug>(choosewin)
 " jsdoc
 map <Leader>t :JsDoc<cr>
 
+"fly between buffers
+nnoremap gb :ls<CR>:b<Space>
