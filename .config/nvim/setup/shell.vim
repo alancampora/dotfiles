@@ -5,11 +5,16 @@ filetype plugin on
 filetype plugin indent on
 
 " show existing tab with 4 spaces width
-set tabstop=4
+"set tabstop=4
 " when indenting with '>', use 4 spaces width
-set shiftwidth=4
+"set shiftwidth=4
 " On pressing tab, insert 4 spaces
-set expandtab
+"set expandtab
+
+"using tabs
+set autoindent
+set noexpandtab
+
 " file name
 set statusline+=%F
 
@@ -33,3 +38,6 @@ let g:jsdoc_access_descriptions=1
 
 " line for 80 chars
 "let &colorcolumn=join(range(81,999),",")
+"
+"interactive replace
+set inccommand=nosplit
