@@ -7,6 +7,7 @@ source ~/.config/nvim/setup/colors.vim
 
 " load plugin configuration
 source ~/.config/nvim/setup/plugins/ctrlsf.vim
+source ~/.config/nvim/setup/plugins/ctrlp.vim
 source ~/.config/nvim/setup/plugins/typescript.vim
 source ~/.config/nvim/setup/plugins/deoplete.vim
 source ~/.config/nvim/setup/plugins/base16.vim
