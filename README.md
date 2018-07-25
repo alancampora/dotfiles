@@ -115,3 +115,12 @@ after that open neovim
 :UpdateRemotePlugins
 :PlugUpdate
 ```
+
+### [ctags](http://ctags.sourceforge.net/)
+```bash 
+brew install ctags
+```
+in each project execute
+```bash
+ctags -R .
+```
