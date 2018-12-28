@@ -5,15 +5,15 @@ filetype plugin on
 filetype plugin indent on
 
 " show existing tab with 4 spaces width
-"set tabstop=4
+set tabstop=4
 " when indenting with '>', use 4 spaces width
-"set shiftwidth=4
+set shiftwidth=4
 " On pressing tab, insert 4 spaces
-"set expandtab
+set expandtab
 
 "using tabs
-set autoindent
-set noexpandtab
+"set autoindent
+"set noexpandtab
 
 " file name
 set statusline+=%F
@@ -22,6 +22,7 @@ set statusline+=%F
 set rnu
 
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h9
+set guifont=FuraCode\ Nerd\ Font:h16.5
 
 "highlight cursor line
 set cursorline 

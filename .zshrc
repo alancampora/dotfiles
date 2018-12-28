@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/admin/.oh-my-zsh
+export ZSH=/Users/acampora/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,11 +49,11 @@ ZSH_CUSTOM=~/theme
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nyan)
+plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/admin/sdks/android-sdk-macosx/tools:/Users/admin/sdks/android-sdk-macosx/platform-tools"
+#export PATH="/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/admin/sdks/android-sdk-macosx/tools:/Users/admin/sdks/android-sdk-macosx/platform-tools"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -85,12 +85,12 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export NVM_DIR="/Users/admin/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #ALIASES
-alias dotfiles='/usr/bin/git --git-dir=/Users/admin/.dotfiles/ --work-tree=/Users/admin'
+alias dotfiles='/usr/bin/git --git-dir=/Users/acampora/.dotfiles/ --work-tree=/Users/acampora'
 alias vim='nvim'
 alias vimlocal='nvim ./'
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
@@ -98,11 +98,17 @@ alias ls-hidden='ls -a | grep "^\."'
 alias re-zsh='source ~/.zshrc'
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias twitch='vsplit -p 39;hsplit -p 34;clear'
+alias nrt='npm run test'
+alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+alias v='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 #vim mode
 bindkey -v
+alias insecure-chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security --user-data-dir=~/.chrome-disable-web-security"
 
 # Base16 Shell
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"

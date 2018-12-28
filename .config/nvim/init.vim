@@ -15,6 +15,8 @@ source ~/.config/nvim/setup/plugins/base16.vim
 "source ~/.config/nvim/setup/plugins/syntastic.vim
 source ~/.config/nvim/setup/plugins/ale.vim
 source ~/.config/nvim/setup/plugins/vim-typescript.vim
+source ~/.config/nvim/setup/plugins/airline.vim
+source ~/.config/nvim/setup/plugins/jsx.vim
 "source ~/.config/nvim/setup/plugins/elm.vim
 
 "external

@@ -27,6 +27,9 @@ vnoremap <leader>d "_d
 " functions
 map <Leader>y :call SplitTerm()<cr>
 
+map <Leader>] :bn<cr>
+map <Leader>[ :bp<cr>
+
 " Chosewin  invoke with '-'
 nmap  -  <Plug>(choosewin)
 

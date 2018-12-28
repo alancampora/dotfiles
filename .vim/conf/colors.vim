@@ -1,4 +1,5 @@
 "color set for base16 external plugin
-colorscheme base16-monokai
+colorscheme codedark
+let g:airline_theme = 'codedark'
 
 
