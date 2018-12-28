@@ -17,6 +17,7 @@ source ~/.config/nvim/setup/plugins/ale.vim
 source ~/.config/nvim/setup/plugins/vim-typescript.vim
 source ~/.config/nvim/setup/plugins/airline.vim
 source ~/.config/nvim/setup/plugins/jsx.vim
+source ~/.config/nvim/setup/plugins/nerdtree.vim
 "source ~/.config/nvim/setup/plugins/elm.vim
 
 "external
