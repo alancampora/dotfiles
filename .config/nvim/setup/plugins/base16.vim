@@ -6,5 +6,5 @@ colorscheme dracula
 "colorscheme codedark
 "
 "remove ugly separator
-hi VertSplit ctermbg=NONE guibg=NONE
-set fillchars+=vert:│
+"hi VertSplit ctermbg=NONE guibg=NONE
+"set fillchars+=vert:│
